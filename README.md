@@ -1,48 +1,49 @@
-# Técnicas de Programación – Programación Orientada a Objetos
+# Programación Orientada a Objetos – Ejercicios Prácticos en Python
 
-Este repositorio contiene cuatro ejemplos prácticos que ilustran las principales **técnicas de programación** utilizadas en la **Programación Orientada a Objetos (POO)**:  
-**Abstracción, Encapsulación, Herencia y Polimorfismo**.
-
-Cada técnica está organizada en su propia carpeta junto con un archivo `.py` que demuestra su funcionamiento.
+Este repositorio contiene ejercicios desarrollados en el curso **Programación Orientada a Objetos (POO)**, con el objetivo de aplicar conceptos clave como Programación Tradicional, Abstracción, Encapsulación, Herencia, Polimorfismo y diseño de clases en Python.
 
 ---
 
-## 1. Abstracción
-La abstracción permite representar solo las características esenciales de un objeto, omitiendo detalles innecesarios.  
-📂 Carpeta: **1_Abstraccion**  
-📄 Archivo: `abstraccion.py`  
-📝 Ejemplo: Clase Vehículo con atributos esenciales y método de descripción.
+## Contenido del Repositorio
+
+### 1. Técnicas de Programación en POO
+El repositorio incluye cuatro carpetas principales que muestran ejemplos prácticos de cada técnica:
+
+- **1_Abstraccion**
+- **2_Encapsulacion**
+- **3_Herencia**
+- **4_Polimorfismo**
+
+Cada carpeta contiene un archivo Python (`.py`) con ejemplos funcionales aplicados en clase.
 
 ---
 
-## 2. Encapsulación
-La encapsulación protege los datos internos de un objeto, permitiendo el acceso controlado mediante métodos.  
-📂 Carpeta: **2_Encapsulacion**  
-📄 Archivo: `encapsulacion.py`  
-📝 Ejemplo: Clase CuentaBancaria con saldo protegido y métodos para depositar y retirar.
+## Proyecto Práctico: Promedio Semanal del Clima
+
+Este proyecto compara dos enfoques de programación mediante la implementación de un programa que calcula el **promedio semanal de temperaturas**:
+
+### Programación Tradicional
+Archivo: `clima_tradicional.py`  
+Incluye:
+- Funciones para ingresar datos
+- Función para calcular el promedio
+- Flujo secuencial tradicional
+
+### Programación Orientada a Objetos (POO)
+Archivo: `clima_poo.py`  
+Incluye:
+- Clase `ClimaSemana`
+- Encapsulamiento de datos
+- Métodos para ingresar temperaturas y calcular promedio
+- Implementación modular y escalable
 
 ---
 
-## 3. Herencia
-La herencia permite crear nuevas clases basadas en clases existentes, reutilizando código y ampliando funcionalidades.  
-📂 Carpeta: **3_Herencia**  
-📄 Archivo: `herencia.py`  
-📝 Ejemplo: Clase Estudiante que hereda de Persona.
+## ¿Cómo ejecutar los programas?
 
----
+Asegúrate de tener **Python 3.8 o superior** instalado.
 
-## 4. Polimorfismo
-El polimorfismo permite que un mismo método funcione de distintas maneras según el objeto que lo implemente.  
-📂 Carpeta: **4_Polimorfismo**  
-📄 Archivo: `polimorfismo.py`  
-📝 Ejemplo: Figuras geométricas que implementan el método área de forma distinta.
-
----
-
-## Ejecución de los programas
-
-Para ejecutar cualquiera de los ejemplos:
+### Ejecutar la versión tradicional:
 
 ```bash
-python nombre_del_archivo.py
-
+python clima_tradicional.py
