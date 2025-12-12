@@ -15,3 +15,5 @@ class Vehiculo:
 # Programa principal
 vehiculo1 = Vehiculo("Toyota", "Corolla", 2020)
 print(vehiculo1.descripcion())
+
+
