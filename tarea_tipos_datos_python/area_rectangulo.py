@@ -17,5 +17,3 @@ if es_rectangulo_grande:
     print("El rectángulo es considerado grande.")
 else:
     print("El rectángulo es considerado pequeño.")
-
-
