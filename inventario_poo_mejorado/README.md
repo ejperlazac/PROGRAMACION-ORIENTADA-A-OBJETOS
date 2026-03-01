@@ -39,5 +39,5 @@ Desde la terminal:
 py main.py
 
 ## Autor
-Evelyn Perlaza
+Evelin Perlaza - 
 Universidad Estatal Amazónica
