@@ -19,7 +19,7 @@ Aplicación gráfica desarrollada con Tkinter que permite gestionar eventos pers
 pip install tkcalendar
 
 ## Ejecución
-python agenda.py
+py agenda.py
 
 ## Características adicionales
 - Validación de formato de hora (HH:MM)
@@ -27,15 +27,4 @@ python agenda.py
 - Scroll en la tabla
 
 ## Autor
-Eveli
-
-
-
-
-
-
-
-
-
-
-n Perlaza
+Evelin Perlaza
